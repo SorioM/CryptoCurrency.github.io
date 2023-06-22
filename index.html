@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoCurrency API</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="head-title">
+        <h1>Crypto Currency</h1>
+    </div>
+    <div class="main">
+    <form action="#">
+        <input type="text" name="search-input" id="search-input" placeholder="search">
+    </form>
+</div>
+
+    <div class="container" id="container">
+        <div class="left-col">
+            <div class="logo">
+              <img src="" alt="">
+            </div>
+        </div>
+
+        <div class="right-col">
+            <div class="crypto-info">
+              <h3> <span class="crypto-rate"></span></h3>
+              <h4> <span class="crypto-name"></span></h4>
+              <h4> <span class="crypto-unit"></span></h4>
+            </div>
+          </div>
+
+    </div>
+
+    <div id="loading-indicator" style="display: none;">Loading...</div>
+    <div id="end-notification" style="display: none;">No more records to be shown.</div>
+    
+    
+
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+</body>
+</html>
